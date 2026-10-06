@@ -1,0 +1,29 @@
+# Editor settings
+.vscode/
+.idea/
+*.liveclass
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Secrets and local config
+.env
+.env.*
+.databrickscfg
+
+# Databricks CLI / bundle local state
+.databricks/
+
+# Gradio temporary files
+.gradio/
+flagged/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
