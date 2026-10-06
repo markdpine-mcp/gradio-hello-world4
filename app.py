@@ -11,7 +11,7 @@ with gr.Blocks(css='footer {visibility: hidden}') as gradio_app:
             gr.Markdown('# Hello world!')
             gr.ScatterPlot(value=data, height=400, width=700,
                            container=False, x='x', y='y',
-                           y_title='A lot of Fun with data', x_title='Apps')
+                           y_title='Even more Fun with data', x_title='Apps')
 
 if __name__ == '__main__':
     gradio_app.launch()
